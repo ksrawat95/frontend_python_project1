@@ -18,6 +18,7 @@
 		<![endif]-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
 	</head>
   
     <body>
@@ -32,35 +33,22 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#"> <i class="fa fa-facebook-square" style="font-size:24px"></i> </a>
+						<a class="navbar-brand" href="#"> <i class="fa fa-facebook-square" style="font-size:24px"></i> </a> 
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<!-- <li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-									<li role="separator" class="divider"></li>
-									<li><a href="#">One more separated link</a></li>
-								</ul>
-							</li> -->
-							<li><a href="#">Home</a></li>
-							<li class="active"><a href="#">Profile <span class="sr-only">(current)</span></a></li>
-						</ul>
 						<form class="navbar-form navbar-left">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Search">
+								<input type="text" class="form-control" placeholder="Search"><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
 							</div>
-							<button type="submit" class="btn btn-default">Submit</button>
-							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+							<button type="submit" class="btn btn-default btn1">Submit</button>
 						</form>
 						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">K.S RAWAT<span class="sr-only">(current)</span></a></li>
+							<li><a href="#"><i style="/* font-size:24px; */" class="fa">&#xf0ac;</i></a></li>
+							<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 							 <li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">setting<span class="caret"></span></a>
 								<ul class="dropdown-menu">
@@ -83,12 +71,12 @@
 						<ul class="nav nav-pills nav-stacked">
 							<p class = "list-heading"> Shortcuts</p>
 							<li role="separator" class="divider"></li>
-							<li role="presentation"><a class="a2" href="#">ks rawat</a></li>
-							<li role="presentation"><a class="a2" href="#">News Feed<span class="badge">12</span></a></li>
-							<li role="presentation"><a class="a2" href="#">Messages<span class="badge">4</span></a></li>
-							<li role="presentation"><a class="a2" href="#">Events<span class="badge">7</span></a></li>
-							<li role="presentation"><a class="a2" href="#">Pages<span class="badge">0</span></a></li>
-							<li role="presentation"><a class="a2" href="#">Groups<span class="badge">0</span></a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">ks rawat</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">News Feed<span class="badge">12</span></a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Messages<span class="badge">4</span></a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Events<span class="badge">7</span></a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Pages<span class="badge">0</span></a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Groups<span class="badge">0</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -123,13 +111,13 @@
 							<div class="panel-footer"><p> <span><a class="change3" href="#">Sarthak Batra </a></span> Wow, that's really insightful! </p>
 								<div>
 									<small>
-									<span> <a class="change1" href="#">Like </a></span> <span> <a class="change1" href="#">Comment </a></span>
+									<span> <a class="change1" href="#">Like </a></span><span><a class="change1" href="#">Comment</a></span>
 									</small>					
 								</div>
 								<input placeholder="Write a comment...">
 							</div>
 							
-							<div class="panel-heading head">
+							<div class="panel-heading head"> 
 								<h3 class="panel-title"><a class="change2" href="#">youtube</a></h3>
 							</div>
 							<div class="panel-body">
@@ -157,33 +145,42 @@
 				</div>
 				<div class="hidden-xs hidden-sm col-md-3">
 					<div id="sidebar">
-						<ul class="nav nav-tabs" role="tablist">
+						<ul class="nav nav-tabs fix-pills" role="tablist" style="padding:5px;">
 							<li role="presentation" class="active"><a href="#user" aria-controls="home" role="tab" data-toggle="tab">user</a></li>
-							<li role="presentation" ><a href="#chat" aria-controls="profile" role="tab" data-toggle="tab">chat</a></li>
-							<li role="presentation" ><a href="#about" aria-controls="messages" role="tab" data-toggle="tab">about</a></li>
+							<li role="presentation" style="margin-left:25px;"><a href="#chat" aria-controls="profile" role="tab" data-toggle="tab">chat</a></li>
+							<li role="presentation" style="margin-left:28px;"><a href="#about" aria-controls="messages" role="tab" data-toggle="tab">Pages</a></li>
 						</ul>
 						<!-- Tab panes -->
 						<div class="tab-content">
 							<div role="tabpanel" class="tab-pane active" id="user">
-								<li role="presentation"><a class="a12" href="# "> profile</a></li>
-								<li role="presentation"><a class="a12" href="# "> friends</a></li>
-								<li role="presentation"><a class="a12" href="# "> messages</a></li>
-								<li role="presentation"><a class="a12" href="# "> apps</a></li>
-								<li role="presentation"><a class="a12" href="# "> setting</a></li>
-								<li role="presentation"><a class="a12" href="# "> Logout</a></li>
+						<ul class="nav nav-pills nav-stacked">
+							<li role="separator" class="divider"></li>
+							<li role="presentation"><a class="a2 btn1" href="#">ks rawat</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">News Feed</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Messages</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Events</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Pages</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Groups</a></li>
+						</ul>
 							</div>
 							<div role="tabpanel" class="tab-pane" id="chat">
-								<li role="presentation"><a class="a12" href="# "> Aprajita</a></li>
-								<li role="presentation"><a class="a12" href="# "> snachit</a></li>
-								<li role="presentation"><a class="a12" href="# "> sanskar</a></li>
-								<li role="presentation"><a class="a12" href="# "> parul</a></li>
-								<li role="presentation"><a class="a12" href="# "> chitra</a></li>
-								<li role="presentation"><a class="a12" href="# "> anchal</a></li>
+								<ul class="nav nav-pills nav-stacked">
+							<li role="separator" class="divider"></li>
+							<li role="presentation"><a class="a2 btn1" href="#">kundan</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">pardeep</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">rahul</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">rajat</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">neeraj</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">ravi</a></li>
+						</ul>
 							</div>
-							<div role="tabpanel" class="tab-pane" id="about">
-								<li role="presentation"><a class="a12" href="# "> pages</a></li>
-								<li role="presentation"><a class="a12" href="# "> likes</a></li>
-								<li role="presentation"><a class="a12" href="# "> photos</a></li>
+							<div role="tabpanel" class="tab-pane btn1" id="about">
+								<ul class="nav nav-pills nav-stacked">
+							<li role="separator" class="divider "></li>
+							<li role="presentation"><a class="a2 btn1" href="#">DDL</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">wwe</a></li>
+							<li role="presentation"><a class="a2 btn1" href="#">Gamers</a></li>
+						</ul>
 							</div>
 						</div>
 			
@@ -193,12 +190,12 @@
 		</div>
 		<footer >
 			<ul class="nav nav-pills pull-right">
-				  <li role="presentation "><a class="a1" href="# ">About Us</a></li>
-				  <li role="presentation "><a class="a1" href="# ">Home</a></li>
-				  <li role=" presentation "><a class="a1" href="# ">Privacy</a></li>
-				  <li role="presentation "><a class="a1" href="# ">Advertising</a></li>
-				  <li role="presentation "><a class="a1" href="# ">Cookies</a></li>
-				  <li role="presentation "><a class="a1" href="# ">Ad Choices</a></li>
+				  <li role="presentation "><a class="a1 btn1" href="# ">About Us</a></li>
+				  <li role="presentation "><a class="a1 btn1" href="# ">Home</a></li>
+				  <li role=" presentation "><a class="a1 btn1" href="# ">Privacy</a></li>
+				  <li role="presentation "><a class="a1 btn1" href="# ">Advertising</a></li>
+				  <li role="presentation "><a class="a1 btn1" href="# ">Cookies</a></li>
+				  <li role="presentation "><a class="a1 btn1" href="# ">Ad Choices</a></li>
 			</ul>
 		</footer>
 	</body>

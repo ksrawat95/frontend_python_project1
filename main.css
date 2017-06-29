@@ -44,6 +44,8 @@ a
 	color:white !important ;
 	background-color: #CCC;
 	margin-right:20px !important;
+	margin-left:10px !important;
+	
 }
 
 
@@ -60,8 +62,26 @@ a
 	background-color: #3b5998 !important;
 	color: white !important;	
 	top: 7px;
+	margin-right:10px !important;
 }
 
+.glyphicon-home
+{
+	font-size: 21px !important;
+	background-color: #3b5998 !important;
+	color: white !important;	
+	top: 0px;
+	margin-right:10px !important;
+}
+.fa
+{
+	font-size: 21px !important;
+	background-color: #3b5998 !important;
+	color: white !important;	
+	top: 0px;
+	margin-right:10px !important;
+	padding-left:10px !important;
+}
 .a1
 {
 	color:blue !important;
@@ -128,13 +148,15 @@ input{
 
 .a12{
 	background-color:#e9ebee !important;
-	color: black !important	
+	color: black !important	;
+
 }
+.a1{background-color:gainsboro !important;}
 
 .form-control
 {
 	margin-top: 0px !important;
-	margin-right: 10px !important;
+	
 	
 }
 .head
@@ -160,3 +182,34 @@ body
 {
 	border:1px;
 }
+
+.btn1:hover {
+    color: black !important;
+	background-color: white !important;
+}
+
+.fix-pills {
+     margin: 2px !important;
+}
+
+.container-fluid
+{
+width: 100%;
+padding: 0px;
+}
+
+.navbar
+{
+    border: 0px;
+}
+
+.form-control
+{
+	padding-right: 350px;
+}
+
+/* .active
+{
+	    margin-right: 13px;
+    margin-left: 8px;
+} */
