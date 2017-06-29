@@ -1,0 +1,168 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+#main,
+#menu,
+#sidebar
+{
+	height: 600px;
+	margin-top: 16px;
+	margin-bottom:16px;
+	background-color: #e9ebee;
+}
+
+#main
+{
+	overflow: auto;
+}
+
+#bs-example-navbar-collapse-1
+{
+	background-color: #3b5998;
+}
+
+.dropdown-toggle
+{
+	color:white !important ;
+	background-color: #3b5998 !important;
+}
+.dropdown-menu
+{
+	background-color: #3b5998 !important;
+}
+a
+{
+	color:white !important ;
+	background-color: #3b5998 !important;
+}
+	
+.btn.btn-default
+{
+	color:white !important ;
+	background-color: #CCC;
+	margin-right:20px !important;
+}
+
+
+.glyphicon
+{
+	font-size: 21px !important;
+	background-color: white !important;	
+	top: 7px;
+}
+.123
+{
+	font-size: 21px !important;
+	background-color: white !important;	
+	margin-top: 10px !important;
+}
+
+.glyphicon-search
+{
+	font-size: 21px !important;
+	background-color: #3b5998 !important;
+	color: white !important;	
+	top: 7px;
+}
+
+.a1
+{
+	color:blue !important;
+	background-color: white !important ;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.a2
+{
+	background-color: #e9ebee !important;
+	color:black !important;
+}
+
+
+.list-heading {
+    padding: 20px 15px 0 15px;
+	color:black !important;
+	font-size:25spx;
+	border:10px !important;
+}
+
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.image-post {
+    margin-bottom: 15px;
+}
+
+.change1{
+	background-color: #f5f5f5 !important;
+	color:blue !important;
+}
+
+.change2{
+	color:black !important;
+	background-color: #f5f5f5 !important;
+}
+.change3{
+	color:blue !important;
+	background-color: #f5f5f5 !important;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+.comment {
+    margin: 0;
+}
+input{
+	width: 100%;
+	margin-top: 15px;
+}
+
+.a12{
+	background-color:#e9ebee !important;
+	color: black !important	
+}
+
+.form-control
+{
+	margin-top: 0px !important;
+	margin-right: 10px !important;
+	
+}
+.head
+{
+	margin-top:10px !important;
+}
+
+blockquote
+{
+	border-left:0px;
+}
+	
+.container-fluid
+{
+	margin:0 auto !important;
+}
+
+body
+{
+	background-color:gainsboro;
+}
+.container
+{
+	border:1px;
+}
