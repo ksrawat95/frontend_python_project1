@@ -39,32 +39,13 @@ a
 	background-color: #3b5998 !important;
 }
 	
-.btn.btn-default
-{
-	color:white !important ;
-	background-color: #CCC;
-	margin-right:20px !important;
-	margin-left:207px !important;
-	
-}
-
 
 .glyphicon
 {
 	font-size: 21px !important;
 	background-color: white !important;	
-	top: 7px;
+	top: 3px;
 }
-
-.glyphicon-search
-{
-	font-size: 21px !important;
-	background-color: #3b5998 !important;
-	color: white !important;	
-	top: 7px;
-	margin-right:10px !important;
-}
-
 .glyphicon-home
 {
 	font-size: 21px !important;
@@ -74,7 +55,6 @@ a
 	margin-right:10px !important;
 }
 
-
 .fa
 {
 	font-size: 21px !important;
@@ -83,17 +63,9 @@ a
 	top: 0px;
 	margin-right:10px !important;
 	padding-left:10px !important;
+	padding: 0 !important;
+    margin: 0 !important;
 }
-.fa-envelope
-{
-	font-size: 24px !important;
-	background-color: #e9ebee !important;
-	color: black !important;	
-	margin:0 auto !important;
-	padding:0px !important;
-	
-}
-
 .fa-thumbs-up
 {
 	font-size: 24px !important;
@@ -103,94 +75,36 @@ a
 	padding:0px !important;
 	float : right! important;
 }
-.fa-glass
-{
-	font-size: 24px !important;
-	background-color: #e9ebee!important;
-	color: black !important;	
-	margin:0 auto !important;
-	padding:0px !important;	
-}
 
-.fa-envelope:hover
-{
-	color: black !important;
-	background-color: white !important;
-}
-
-.fa-user-circle-o
-{
-	font-size: 24px !important;
-	background-color: #e9ebee!important;
-	color: black !important;	
-	margin:0 auto !important;
-	padding:0px !important;	
-}
-.fa-user-circle-o:hover
-{
-	color: black !important;
-	background-color: white !important;
-}
-.fa-tasks
-{
-	font-size: 24px !important;
-	background-color: #e9ebee!important;
-	color: black !important;	
-	margin:0 auto !important;
-	padding:0px !important;	
-}
-.fa-tasks:hover
-{
-	color: black !important;
-	background-color: white !important;
-}
-.fa-glass:hover
-{
-	color: black !important;
-	background-color: white !important;
-}
-
-.fa-group
-{
-	font-size: 24px !important;
-	background-color: #e9ebee!important;
-	color: black !important;	
-	margin:0 auto !important;
-	padding:0px !important;	
-}
-
-.fa-group:hover
-{
-	color: black !important;
-	background-color: white !important;
-}
-.fa-pencil-square-o
-{
-	font-size: 24px !important;
-	background-color: #e9ebee!important;
-	color: black !important;	
-	margin:0 auto !important;
-	padding:0px !important;	
-}
 .fa.fa-user-o{
 	background-color:#3b5998 !important;
 	color:white !important;
 	
 }
-.fa-pencil-square-o:hover
+.edit
+{
+	font-size: 24px !important;
+	background-color: #e9ebee !important;
+	color: black !important;	
+	margin:0 auto !important;
+	padding:0px !important;
+	
+}
+
+
+.edit2:hover
 {
 	color: black !important;
 	background-color: white !important;
 }
 
+.pull-right {
+    float: right!important;
+}
 .a1
 {
 	color:blue !important;
 	background-color: white !important ;
-}
-
-.pull-right {
-    float: right!important;
 }
 
 .a2
@@ -207,7 +121,8 @@ a
 	border:10px !important;
 }
 
-.panel-body .glyphicon {
+.panel-body .glyphicon
+{
     margin-left: 10px;
     margin-right: 4px;
 }
@@ -217,7 +132,8 @@ a
     margin-top: 0;
 }
 
-.image-post {
+.image-post
+{
     margin-bottom: 15px;
 }
 
@@ -253,7 +169,10 @@ input{
 
 }
 .a1{background-color:gainsboro !important;}
-
+.a3{background-color:white !important;
+	color: black !important;}
+	
+	
 .form-control
 {
 	margin-top: 0px !important;
@@ -275,10 +194,7 @@ blockquote
 	margin:0 auto !important;
 }
 
-body
-{
-	background-color:gainsboro;
-}
+
 .container
 {
 	border:1px;
@@ -287,6 +203,11 @@ body
 .btn1:hover {
     color: black !important;
 	background-color: white !important;
+}
+
+.a3:hover {
+    color: white !important;
+	background-color: black !important;
 }
 
 .fix-pills {
@@ -309,8 +230,42 @@ padding: 0px;
 	padding-right: 350px;
 }
 
-/* .active
+
+.side
 {
-	    margin-right: 13px;
-    margin-left: 8px;
-} */
+	font-size:25px !important;
+	margin-left:18px !important;
+	margin-right:2px !important;
+}
+
+.list1{
+	background-color:#e9ebee !important;
+	color:black !important;
+}
+
+.des1
+{
+	margin:7px;
+}
+
+
+
+.fa-facebook-square{
+	margin-left:10px !important;
+}
+
+.b1{
+	background-color:white !important;
+color:black !important;
+}
+
+.btn-default
+{
+	padding: 0;
+}
+
+.navbar-header{
+	padding:0 px !important;
+	margin:0 auto !important;
+	color:black !important;
+}
