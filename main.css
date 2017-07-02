@@ -274,7 +274,6 @@ padding: 0px;
 	margin:0 auto !important;
 	color:black !important;
 	background-color:#3b5998 !important;
-	
 }
 
 .sideicon{
@@ -283,3 +282,12 @@ padding: 0px;
 	padding:0 !important;
 }
 .navbar-right{margin:2px;}
+
+.post{
+	border:0;
+	background-color:#f5f5f5;
+}
+.post1{
+background-color: #f5f5f5 !important;
+color:black !important;
+}
