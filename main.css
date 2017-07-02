@@ -19,6 +19,11 @@
 	overflow: auto;
 }
 
+#sidebar
+{
+	overflow: auto;
+}
+
 #bs-example-navbar-collapse-1
 {
 	background-color: #3b5998;
@@ -210,6 +215,7 @@ blockquote
 }
 
 .fix-pills {
+	
      margin: 2px !important;
 }
 
@@ -271,3 +277,11 @@ padding: 0px;
 	
 }
 
+.sideicon{
+	background-color:#e9ebee!important;
+	color:blue !important;
+	padding:0 !important;
+}
+.me{
+	background-color:black;
+}
